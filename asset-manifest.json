@@ -1,13 +1,28 @@
 {
   "files": {
-    "main.css": "/app-camper-rental/static/css/main.7acaea2f.css",
-    "main.js": "/app-camper-rental/static/js/main.07d3183d.js",
+    "main.css": "/app-camper-rental/static/css/main.2a152bc8.css",
+    "main.js": "/app-camper-rental/static/js/main.4c3424c8.js",
+    "static/css/891.e864ed4b.chunk.css": "/app-camper-rental/static/css/891.e864ed4b.chunk.css",
+    "static/js/891.a48ddc9a.chunk.js": "/app-camper-rental/static/js/891.a48ddc9a.chunk.js",
+    "static/css/890.db171cef.chunk.css": "/app-camper-rental/static/css/890.db171cef.chunk.css",
+    "static/js/890.d39d6f30.chunk.js": "/app-camper-rental/static/js/890.d39d6f30.chunk.js",
+    "static/media/image-2.jpg": "/app-camper-rental/static/media/image-2.27697177e4bfacb569b0.jpg",
+    "static/media/image-6.jpg": "/app-camper-rental/static/media/image-6.ed906b959522c0eae0db.jpg",
+    "static/media/image-4.jpg": "/app-camper-rental/static/media/image-4.5079adb875ecbd92b234.jpg",
+    "static/media/image-5.jpg": "/app-camper-rental/static/media/image-5.1a1f9259e46925112dc7.jpg",
+    "static/media/image-3.jpg": "/app-camper-rental/static/media/image-3.bbd573ddbce422d0433e.jpg",
+    "static/media/image-1.jpg": "/app-camper-rental/static/media/image-1.f4d4c41d1e93049b3fd1.jpg",
+    "static/media/heart.svg": "/app-camper-rental/static/media/heart.1f2386a681e538f857934e496fca3897.svg",
     "index.html": "/app-camper-rental/index.html",
-    "main.7acaea2f.css.map": "/app-camper-rental/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/app-camper-rental/static/js/main.07d3183d.js.map"
+    "main.2a152bc8.css.map": "/app-camper-rental/static/css/main.2a152bc8.css.map",
+    "main.4c3424c8.js.map": "/app-camper-rental/static/js/main.4c3424c8.js.map",
+    "891.e864ed4b.chunk.css.map": "/app-camper-rental/static/css/891.e864ed4b.chunk.css.map",
+    "891.a48ddc9a.chunk.js.map": "/app-camper-rental/static/js/891.a48ddc9a.chunk.js.map",
+    "890.db171cef.chunk.css.map": "/app-camper-rental/static/css/890.db171cef.chunk.css.map",
+    "890.d39d6f30.chunk.js.map": "/app-camper-rental/static/js/890.d39d6f30.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.2a152bc8.css",
+    "static/js/main.4c3424c8.js"
   ]
 }
