@@ -1,16 +1,22 @@
+import { BrowserRouter } from 'react-router-dom';
+import Routers from 'routers/Routers';
+import Header from './Header/Header';
+import { PAGES } from 'data/pages';
+import styles from './App.module.css';
+import ScrollUpButton from './ScrollUpButton/ScrollUpButton';
+import { Provider } from 'react-redux';
+import store from 'store/store';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Provider store={store}>
+      <BrowserRouter basename="/app-camper-rental">
+        <Header options={PAGES} />
+        <main className={styles.main}>
+          <Routers />
+          <ScrollUpButton />
+        </main>
+      </BrowserRouter>
+    </Provider>
   );
 };

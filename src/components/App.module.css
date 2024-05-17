@@ -1,0 +1,7 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  padding: 0 30px;
+}

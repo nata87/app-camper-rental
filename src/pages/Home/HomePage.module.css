@@ -1,0 +1,17 @@
+.homeContainer {
+  margin-top: 50px;
+}
+
+.imageGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  max-width: 45%;
+}
+
+section {
+  font-size: 32px;
+  margin: 75px 0;
+}

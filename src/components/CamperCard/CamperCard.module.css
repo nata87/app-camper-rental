@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid rgba(16, 24, 40, 0.2);
+}
+
+.image {
+  width: 290px;
+  height: 310px;
+  border-radius: 10px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.headding {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  color: #101828;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.heart {
+  width: 20px;
+}
