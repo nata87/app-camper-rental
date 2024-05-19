@@ -13,7 +13,7 @@ const CatalogPage = () => {
   }, [dispatch]);
 
   const campers = useSelector(selectCampers);
-  console.log('campers', campers);
+
   return (
     <div className={styles.container}>
       <section></section>

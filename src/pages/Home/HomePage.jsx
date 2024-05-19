@@ -19,19 +19,19 @@ const HomePage = () => {
       </section>
       <hr color="#e44848" />
       <section>
-        <p>
+        <div>
           {homePage.campers.text}
           <ul>
-            {homePage.campers.list.map(({ title, text }) => {
+            {homePage.campers.list.map(({ title, text, id }) => {
               return (
-                <li key={title}>
+                <li key={id}>
                   <b>{title}</b>
                   {text}
                 </li>
               );
             })}
           </ul>
-        </p>
+        </div>
         <div className={styles.imageGroup}>
           <img className={styles.image} src={image_3} alt="camper" />
           <img className={styles.image} src={image_4} alt="camper" />
@@ -39,7 +39,7 @@ const HomePage = () => {
       </section>
       <hr color="#e44848" />
       <section>
-        <p>
+        <div>
           {homePage.services.text}
           <ul>
             {homePage.services.list.map(({ title, text }) => {
@@ -51,7 +51,7 @@ const HomePage = () => {
               );
             })}
           </ul>
-        </p>
+        </div>
         <div className={styles.imageGroup}>
           <img className={styles.image} src={image_5} alt="camper" />
           <img className={styles.image} src={image_6} alt="camper" />

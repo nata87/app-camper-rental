@@ -1,0 +1,8 @@
+.infoItem {
+  display: flex;
+  padding: 12px 18px;
+  align-items: center;
+  border-radius: 100px;
+  background: #f2f4f7;
+  mix-blend-mode: multiply;
+}

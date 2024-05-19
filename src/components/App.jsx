@@ -5,18 +5,22 @@ import { PAGES } from 'data/pages';
 import styles from './App.module.css';
 import ScrollUpButton from './ScrollUpButton/ScrollUpButton';
 import { Provider } from 'react-redux';
-import store from 'store/store';
+import { PersistGate } from 'redux-persist/integration/react';
+
+import { store, persistor } from 'store/store';
 
 export const App = () => {
   return (
     <Provider store={store}>
-      <BrowserRouter basename="/app-camper-rental">
-        <Header options={PAGES} />
-        <main className={styles.main}>
-          <Routers />
-          <ScrollUpButton />
-        </main>
-      </BrowserRouter>
+      <PersistGate loading={null} persistor={persistor}>
+        <BrowserRouter basename="/app-camper-rental">
+          <Header options={PAGES} />
+          <main className={styles.main}>
+            <Routers />
+            <ScrollUpButton />
+          </main>
+        </BrowserRouter>
+      </PersistGate>
     </Provider>
   );
 };

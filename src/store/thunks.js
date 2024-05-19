@@ -7,7 +7,6 @@ export const fetchCampers = createAsyncThunk(
   async () => {
     try {
       const { data } = await axios.get('/data');
-      console.log(data);
       return data;
     } catch (error) {
       throw error;

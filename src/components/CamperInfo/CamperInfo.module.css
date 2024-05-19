@@ -1,0 +1,146 @@
+.cover {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.container {
+  position: absolute;
+  left: 18%;
+  top: 7%;
+  width: 60%;
+  background-color: #fff;
+  padding: 40px 16px 40px 40px;
+  border-radius: 20px;
+  height: 720px;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  color: #101828;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+
+  margin-bottom: 10px;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+}
+.close {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  stroke: #101828;
+}
+.close:hover {
+  stroke: #e44848;
+  cursor: pointer;
+}
+
+.ratingContainer {
+  display: flex;
+  margin-bottom: 16px;
+  gap: 16px;
+  align-items: center;
+}
+
+.rating {
+  display: flex;
+  gap: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  align-items: baseline;
+}
+
+.location {
+  display: flex;
+  gap: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+
+.priceContainer {
+  margin-bottom: 24px;
+}
+
+.price {
+  color: #101828;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 550px;
+  padding-right: 20px;
+}
+.body::-webkit-scrollbar {
+  width: 10px;
+  display: flex;
+  margin-left: 10px;
+}
+
+.body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.galleryContainer {
+  margin-bottom: 24px;
+}
+
+.gallery {
+  display: flex;
+  gap: 16px;
+}
+
+.image {
+  height: auto;
+  width: calc((100% - 32px) / 3);
+}
+
+.description {
+  color: #475467;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.tabs {
+  display: flex;
+  gap: 40px;
+}
+
+.tab {
+  padding-bottom: 24px;
+}
+
+.tabButton {
+  background: none;
+  border: none;
+  color: #101828;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.tabBody {
+  display: flex;
+  gap: 24px;
+  margin-right: 10px;
+}

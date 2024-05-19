@@ -33,4 +33,66 @@
 
 .heart {
   width: 20px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.ratingWrapper {
+  display: flex;
+  margin-bottom: 24px;
+  gap: 18px;
+  align-items: center;
+}
+
+.rating {
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+
+.description {
+  overflow: hidden;
+  color: #475467;
+
+  text-overflow: ellipsis;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.infoList {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 24px;
+  padding-left: 0;
+}
+
+.button {
+  display: inline-flex;
+  padding: 16px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 200px;
+  background: #e44848;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.08px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
