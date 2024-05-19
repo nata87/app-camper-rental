@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 44px;
+}
+
+.detailsTitle {
+  margin-bottom: 24px;
+  color: #101828;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.detailsList {
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.detailsListItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailsListItemName {
+  color: #101828;
+  text-align: center;
+  font-size: 18px;
+
+  font-weight: 500;
+  line-height: 24px;
+}

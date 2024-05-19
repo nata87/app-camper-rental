@@ -3,7 +3,8 @@ import { Suspense, lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 const Home = lazy(() => import('../pages/Home/HomePage'));
-const Catalog = lazy(() => import('../pages//Catalog/CatalogPage'));
+const Catalog = lazy(() => import('../pages/Catalog/CatalogPage'));
+const Favorite = lazy(() => import('../pages/Favorite/FavoritePage'));
 
 const Routers = () => {
   return (
@@ -24,7 +25,14 @@ const Routers = () => {
           </Suspense>
         }
       />
-      <Route path="/favorite" element={<h1>favorite</h1>} />
+      <Route
+        path="/favorite"
+        element={
+          <Suspense fallback={<Spiner />}>
+            <Favorite />
+          </Suspense>
+        }
+      />
       <Route path="*" element={<h1>Page not found</h1>} />
     </Routes>
   );

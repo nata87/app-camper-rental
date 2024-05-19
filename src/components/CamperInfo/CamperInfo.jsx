@@ -4,15 +4,17 @@ import { ReactComponent as Close } from '../../icons/close.svg';
 import { ReactComponent as Star } from '../../icons/star.svg';
 import { ReactComponent as Map } from '../../icons/map.svg';
 import CamperFeatures from 'components/CamperFeatures/CamperFeatures';
+import CamperReviews from 'components/CamperReviews/CamperReviews';
 const CamperInfo = ({ data, onClose }) => {
   const [isFeatures, setIsFeatures] = useState(true);
 
   const { name, price, rating, location, description, gallery, reviews } = data;
+  console.log('reviews', reviews);
   return (
     <div className={styles.cover}>
       <div className={styles.container}>
         <div className={styles.name}>
-          <p>{name}</p>
+          <h1 style={{ fontSize: '24px' }}>{name}</h1>
           <button className={styles.closeButton} onClick={onClose}>
             <Close className={styles.close} />
           </button>
@@ -84,7 +86,7 @@ const CamperInfo = ({ data, onClose }) => {
             {isFeatures ? (
               <CamperFeatures data={data} />
             ) : (
-              <CamperReviewsList reviews={reviews} />
+              <CamperReviews reviews={reviews} />
             )}
           </div>
         </section>

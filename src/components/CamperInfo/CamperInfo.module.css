@@ -137,10 +137,16 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
+  transition: opacity 0.3s;
 }
 
 .tabBody {
   display: flex;
   gap: 24px;
   margin-right: 10px;
+}
+
+.tabButton:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }

@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.reviewList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.reviewInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.reviewAvatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background: #f2f4f7;
+  margin-right: 16px;
+}
+
+.reviewAvatarName {
+  color: #e44848;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.reviewName {
+  color: #101828;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.reviewComment {
+  color: #475467;
+  font-size: 16px;
+  line-height: 24px;
+}

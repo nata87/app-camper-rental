@@ -3,7 +3,7 @@ import { ReactComponent as Heart } from '../../icons/heart.svg';
 import { ReactComponent as Star } from '../../icons/star.svg';
 import { ReactComponent as Map } from '../../icons/map.svg';
 import { ReactComponent as Adult } from '../../icons/adult.svg';
-import { ReactComponent as Transmision } from '../../icons/transmision.svg';
+import { ReactComponent as Transmission } from '../../icons/transmission.svg';
 import { ReactComponent as Benz } from '../../icons/benz.svg';
 import { ReactComponent as Kitchen } from '../../icons/kitchen.svg';
 import { ReactComponent as Beds } from '../../icons/beds.svg';
@@ -85,7 +85,7 @@ const CamperCard = ({ camper }) => {
         <div>
           <ul className={styles.infoList}>
             <Tag Icon={Adult} data={adults} text="adults" />
-            <Tag Icon={Transmision} text={transmission} />
+            <Tag Icon={Transmission} text={transmission} />
             <Tag Icon={Benz} text={engine} />
             {details.kitchen && <Tag Icon={Kitchen} text="kitchen" />}
             <Tag Icon={Kitchen} text={engine} />
