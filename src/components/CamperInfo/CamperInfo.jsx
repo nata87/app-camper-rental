@@ -9,7 +9,6 @@ const CamperInfo = ({ data, onClose }) => {
   const [isFeatures, setIsFeatures] = useState(true);
 
   const { name, price, rating, location, description, gallery, reviews } = data;
-  console.log('reviews', reviews);
   return (
     <div className={styles.cover}>
       <div className={styles.container}>

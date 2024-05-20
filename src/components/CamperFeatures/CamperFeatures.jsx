@@ -35,7 +35,6 @@ const CamperFeatures = ({ data }) => {
     tank,
     consumption,
   } = data;
-  console.log(data);
 
   const capitalizeFirst = str => str.charAt(0).toUpperCase() + str.slice(1);
   return (

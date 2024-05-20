@@ -1,7 +1,6 @@
 import CamperCard from 'components/CamperCard/CamperCard';
 
 const CamperCardList = ({ campers }) => {
-  console.log('campers', campers);
   return (
     <>
       {campers.map(camper => {
